@@ -49,7 +49,7 @@ const animationTimeline = () => {
 
     // timeline
     const tl = new TimelineMax();
-
+    tl.timeScale(1.25);
     tl.to(".container", 0.6, {
         visibility: "visible"
     })
