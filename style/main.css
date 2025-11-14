@@ -319,4 +319,16 @@ body {
 .wish-hbd {
   white-space: normal;
 }
+/* Default letter behavior */
+.wish-hbd span {
+  display: inline-block;
+  margin-right: 1px;  /* small spacing between letters */
+  text-transform: none; /* keep original capitalization */
+}
+
+/* Detect actual space characters */
+.wish-hbd span:empty {
+  margin-right: 8px; /* bigger space between words */
+}
+
 
