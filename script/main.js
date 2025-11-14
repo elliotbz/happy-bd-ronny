@@ -255,26 +255,6 @@ const animationTimeline = () => {
         y: 30,
         zIndex: "-1",
     })
-    .from(".ten", 0.7, {
-    opacity: 0,
-    y: 30,
-    visibility: "visible"
-}, "+=0.5")
-.from(".ten-title", 0.5, { opacity: 0, y: 20 })
-.staggerFrom(".photo-card", 0.6, {
-    opacity: 0,
-    y: 30
-}, 0.15)
-.staggerFrom(".party-deco .confetti", 0.8, {
-    opacity: 1,
-    y: -40,
-    rotation: 180,
-    ease: "power2.out"
-}, 0.2)
-.to(".ten", 0.7, {
-    opacity: 0,
-    y: -20
-}, "+=3")
 
     .staggerFrom(".nine p", 1, ideaTextTrans, 1.2)
     .to(
