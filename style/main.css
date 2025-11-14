@@ -312,4 +312,11 @@ body {
   cursor: pointer;
   text-decoration: underline; /* optional */
 }
+.wish-hbd span {
+  display: inline-block;
+  margin-right: 2px;
+}
+.wish-hbd {
+  white-space: normal;
+}
 
