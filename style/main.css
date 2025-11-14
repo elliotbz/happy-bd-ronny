@@ -50,6 +50,10 @@ body {
   position: relative;
   width: 600px;
 }
+.four {
+  top: 50vh;                 /* center vertically */
+  transform: translateY(-50%);
+}
 
 .text-box p {
   margin: 0;
