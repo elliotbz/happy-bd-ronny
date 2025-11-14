@@ -306,4 +306,10 @@ body {
   box-shadow: 0 5px 20px rgba(0,0,0,0.25);
  
 }
+.tap-here {
+  font-weight: 700;          /* bold */
+  color: #ff69b4;            /* pink, or any color */
+  cursor: pointer;
+  text-decoration: underline; /* optional */
+}
 
